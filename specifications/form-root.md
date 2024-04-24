@@ -1,4 +1,4 @@
-# Introduction
+# Form Root Schema 
 
 ```json
 {
@@ -13,6 +13,14 @@
                     "description": "unique property name"
                 },
                 "label": {"type": "string"},
+                "unit": {"type": "string"},
+                "root": {"type": "string"},
+                "index": {"type": "string"},
+                "description": {"type": "string"},
+                "required": {"type": "boolean"},
+                "disabled": {"type": "boolean"},
+                "readonly": {"type": "boolean"},
+                "hint": {"type": "string"},
                 "type": {
                     "description": "property type such as text, bool, time, index...",
                     "type": "string",
