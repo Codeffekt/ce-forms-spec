@@ -1,8 +1,5 @@
-# Form Query Schema
-
-```json
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "definitions": {
         "queryFieldExpr": {
             "description": "How to filter forms with some specific field value",
@@ -74,8 +71,10 @@
             "items": {
                  "$ref": "#/definitions/querySortField"
             }
+        },
+        "ref": {
+            "type": "string",
+            "description": "Unique bucket id to retrieve a set of shared forms or assets"
         }
     }
 }
-
-```

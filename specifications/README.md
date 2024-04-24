@@ -14,7 +14,5 @@ Welcome to our Form Root specification! The Form Root serves as a foundational s
 
 ## Json Schema 
 
-* [Form Root specification](./form-root.md)
-* [Form Instance specification](./form-instance.md)
-* [Form Query specification](./form-query.md)
-* [Form Mask specification](./form-mask.md)
+* [Form Root specification](./form-root-schema.json)
+* [Form Query specification](./form-query-schema.json)

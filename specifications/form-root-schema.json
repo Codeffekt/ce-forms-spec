@@ -1,8 +1,5 @@
-# Form Root Schema 
-
-```json
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "definitions": {
         "block": {
             "description": "Form property format",
@@ -51,7 +48,7 @@
         },
         "type": {
             "description": "Form root parent or category id",
-            "type": "string",
+            "type": "string"
         },
         "ctime": {
             "description": "Creation time in UNIX epoch format (ms since 1970)",
@@ -75,4 +72,3 @@
     },
     "required": ["id", "ctime", "title", "content"]
 }
-````
